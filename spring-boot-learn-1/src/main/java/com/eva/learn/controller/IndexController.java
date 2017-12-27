@@ -24,7 +24,7 @@ public class IndexController {
     @RequestMapping(value = "/get")
     public HashMap<String, Object> get(@RequestParam String name) {
         HashMap<String, Object> map = new HashMap<String, Object>();
-        map.put("title", "hello world");
+        map.put("title", "hello eva");
         map.put("name", name);
         return map;
     }
